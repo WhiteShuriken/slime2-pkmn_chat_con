@@ -37,8 +37,8 @@ Les spectateurs peuvent choisir manuellement leur Pokémon préféré directemen
 | **[id_pokemon]** | `Nombre` | Le numéro de l'icône dans le dossier (ex: `25` pour Pikachu) |
 
 ### Exemples
-* `!pkmn 1 25` : Sélectionne Pikachu (Gen 1).
-* `!pkmn 8 6` : Sélectionne Méga-Dracaufeu (Dossier Mega).
+* `!pkmn 1 112` : Sélectionne Psykokwak (Gen 1).
+* `!pkmn 8 54` : Sélectionne Méga-Lucario (Dossier Mega).
 
 > [!IMPORTANT]
 > La commande est **silencieuse**. Elle est traitée par l'overlay pour mettre à jour l'avatar, mais le message n'est pas affiché à l'écran pour garder le tchat propre.
