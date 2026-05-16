@@ -1,55 +1,93 @@
-👾 Overlay Slime Chat - Pokémon Edition
+👾 Overlay Slime Chat - Pokémon RPG Edition
 
-Cet overlay de tchat Twitch est une version hautement personnalisée basée sur le moteur Slime2 (créé par Zaytri). Le code de personnalisation (logique des avatars, commandes tchat et design RPG) a été généré via Gemini.
+Une version hautement personnalisée de l'overlay de chat Slime2 (créé par Zaytri), conçue pour transformer l'interaction de votre stream en une interface de jeu de rôle Pokémon.
 
-✨ Présentation
+✨ Caractéristiques principales
 
-L'overlay transforme votre tchat en une véritable interface de jeu de rôle (RPG) ou de messagerie instantanée (SMS).
+L'overlay a été intégralement repensé pour offrir une expérience immersive :
 
-Design Épuré : Bulles de texte claires, sans contours agressifs, teintées à la couleur de l'utilisateur.
+🎨 Design "SMS / RPG Clean" : Suppression totale des bordures et contours pour un rendu moderne et épuré.
 
-Grands Avatars : Icônes Pokémon de 120px pour une visibilité maximale.
+🫧 Bulles Dynamiques : Les messages apparaissent dans des bulles claires, subtilement teintées selon la couleur de l'utilisateur sur Twitch.
 
-Mode Conversation : Les messages alternent entre la gauche et la droite de l'écran pour un rendu dynamique.
+🖼️ Avatars Pokémon XL : Icônes de 100px à 120px pour une visibilité parfaite en plein stream.
 
-🚀 Fonctionnement automatique
+💬 Logique de Conversation : Alternance automatique des messages entre la gauche et la droite de l'écran. Si un utilisateur parle plusieurs fois de suite, il reste du même côté.
 
-Attribution Aléatoire : Lors du premier message d'un spectateur, un Pokémon lui est attribué au hasard parmi toutes les générations disponibles.
+💾 Persistance de Session : Chaque spectateur se voit attribuer un Pokémon aléatoire dès son premier message et le conserve jusqu'au rechargement de l'overlay.
 
-Persistance : L'utilisateur conserve le même Pokémon durant toute la session de stream.
+🛠️ Commandes pour les spectateurs
 
-Logique de Côté : Si un utilisateur enchaîne plusieurs messages, ils restent du même côté. Le côté change dès qu'un nouvel utilisateur prend la parole.
+Les spectateurs peuvent outrepasser l'attribution aléatoire et choisir manuellement leur Pokémon préféré.
 
-🛠 Commande de personnalisation
+Sélection manuelle
 
-Les spectateurs peuvent choisir manuellement leur Pokémon préféré directement depuis le tchat Twitch.
+Syntaxe : !pkmn [num_generation] [id_pokemon]
 
-Commande : !pkmn [num_generation] [id_pokemon]
+Paramètre
 
-Guide des paramètres :
+Valeur
 
-[num_generation] : Un chiffre de 1 à 8.
+Description
 
-1 à 7 : Générations classiques (dossiers gen1 à gen7).
+[num_generation]
 
-8 : Dossier des formes MEGA (icons_output_genMEGA).
+1 à 7
 
-[id_pokemon] : Le numéro du fichier dans le dossier (ex: 25 pour Pikachu).
+Dossiers de générations classiques
 
-Exemples d'utilisation :
 
-!pkmn 1 25 : Choisit Pikachu dans la Génération 1.
 
-!pkmn 8 6 : Choisit Dracaufeu Mega dans le dossier MEGA.
+8
 
-Note : La commande est "silencieuse". Lorsqu'un utilisateur l'utilise, le message est automatiquement masqué de l'overlay pour ne pas encombrer visuellement le tchat.
+Dossier des formes MEGA
 
-📂 Installation pour OBS
+[id_pokemon]
 
-Fichiers : Placez le dossier assets/pokemon_icon/ dans le même dossier que votre fichier overlay-slime-chat.html.
+Nombre
 
-Source Navigateur : Dans OBS, créez une nouvelle source "Navigateur" pointant vers votre fichier local overlay-slime-chat.html.
+Le numéro de l'icône dans le dossier (ex: 25 pour Pikachu)
 
-Permissions : Cochez impérativement la case "Accorder l'accès aux fichiers locaux" pour que les images Pokémon puissent s'afficher.
+Exemples
 
-Code généré avec l'aide de Gemini pour une expérience de stream Pokémon immersive.
+!pkmn 1 25 : Sélectionne Pikachu (Gen 1).
+
+!pkmn 8 6 : Sélectionne Méga-Dracaufeu (Dossier Mega).
+
+Note : Cette commande est "silencieuse". Elle est traitée par le moteur mais n'est pas affichée dans la bulle de chat pour préserver la propreté de l'overlay.
+
+📂 Structure des fichiers
+
+Pour que l'overlay fonctionne, vos fichiers doivent être organisés ainsi :
+
+/votre-dossier-overlay
+├── overlay-slime-chat.html    <-- Fichier principal (Code fusionné)
+├── assets/
+│   └── pokemon_icon/
+│       ├── icons_output_gen1/ (pkmn_000.png, pkmn_001.png...)
+│       ├── icons_output_gen2/
+│       ├── ...
+│       └── icons_output_genMEGA/
+
+
+🚀 Installation dans OBS
+
+Placez le fichier overlay-slime-chat.html et le dossier assets dans un dossier dédié sur votre PC.
+
+Ouvrez OBS Studio.
+
+Ajoutez une nouvelle source Navigateur.
+
+Cochez "Fichier local" et sélectionnez votre fichier HTML.
+
+IMPORTANT : Cochez la case "Accorder l'accès aux fichiers locaux" (tout en bas des propriétés de la source). Sans cela, les icônes Pokémon ne pourront pas s'afficher.
+
+Réglez la taille de la source sur les dimensions de votre stream (ex: 1920x1080).
+
+📝 Crédits
+
+Moteur de base : Slime2 par Zaytri.
+
+Personnalisation & Logique : Code généré et optimisé via Gemini pour une expérience Pokémon unique.
+
+Fait avec ❤️ pour la communauté Pokémon sur Twitch.
