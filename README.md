@@ -34,7 +34,7 @@ Les spectateurs peuvent choisir manuellement leur Pokémon préféré directemen
 | :--- | :--- | :--- |
 | **[num_generation]** | `1` à `7` | Dossiers de générations classiques |
 | | `8` | Dossier des formes **MEGA** |
-| **[id_pokemon]** | `Nombre` | Le numéro de l'icône dans le dossier (ex: `25` pour Pikachu) |
+| **[id_pokemon]** | `Nombre` | Le numéro de l'icône dans le dossier (ex: `30` pour Pikachu) |
 
 ### Exemples
 * `!pkmn 1 112` : Sélectionne Psykokwak (Gen 1).
