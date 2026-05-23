@@ -107,3 +107,5 @@ Ce projet utilise des icônes issues du jeu vidéo **Pokémon Battle Trozei!** (
 ### 📬 Contact & Retrait des visuels
 
 Si vous êtes un représentant légal des ayants droit et que vous souhaitez le retrait de ces images de ce dépôt, merci d'ouvrir une *Issue* ou de me contacter directement.
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
