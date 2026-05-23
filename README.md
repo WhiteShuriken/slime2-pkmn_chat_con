@@ -106,4 +106,4 @@ Ce projet utilise des icônes issues du jeu vidéo **Pokémon Battle Trozei!** (
 
 ### 📬 Contact & Retrait des visuels
 
-Si vous êtes un représentant légal des ayants droit et que vous souhaitez le retrait de ces images de ce dépôt, merci d'ouvrir une *Issue* ou de me contacter directement. Les ressources seront supprimées immédiatement.
+Si vous êtes un représentant légal des ayants droit et que vous souhaitez le retrait de ces images de ce dépôt, merci d'ouvrir une *Issue* ou de me contacter directement.
