@@ -79,3 +79,31 @@ Pour un fonctionnement correct sur votre PC, respectez cette hiérarchie :
 
 ---
 *Fait avec ❤️ pour la communauté Pokémon sur Twitch.*
+
+# 🎨 Crédits & Copyright — Pokémon Battle Trozei!
+
+Ce projet utilise des icônes issues du jeu vidéo **Pokémon Battle Trozei!** (connu sous le nom de *Pokémon Link: Battle!* en Europe).
+
+---
+
+### ⚠️ Mentions Légales & Droits d'Auteur
+
+> [!IMPORTANT]
+> **Tous les droits sur ces visuels appartiennent exclusivement à leurs propriétaires respectifs.**
+
+* **Propriété intellectuelle :** &copy; The Pokémon Company / Nintendo / Creatures Inc. / GAME FREAK.
+* **Source des ressources :** *Pokémon Battle Trozei!*
+
+---
+
+### ℹ️ Clause de Non-Responsabilité (Disclaimer)
+
+* **But non lucratif :** Ce projet est une initiative de fan, strictement **gratuite et non commerciale**.
+* **Usage loyal (Fair Use) :** L'utilisation de ces icônes est faite à but illustratif et communautaire. Aucune violation de copyright n'est intentionnelle.
+* **Affiliation :** Ce projet n'est en aucun cas affilié, approuvé ou soutenu par *The Pokémon Company*, *Nintendo* ou leurs studios partenaires.
+
+---
+
+### 📬 Contact & Retrait des visuels
+
+Si vous êtes un représentant légal des ayants droit et que vous souhaitez le retrait de ces images de ce dépôt, merci d'ouvrir une *Issue* ou de me contacter directement. Les ressources seront supprimées immédiatement.
